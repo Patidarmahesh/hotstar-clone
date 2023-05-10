@@ -1,0 +1,33 @@
+.carosal {
+    padding: 36px;
+    border: 0px solid gold;
+    display: "flex";
+    flex-direction: "column";
+    justify-content: "center";
+    align-items: "center";
+    border-radius: "1%";
+    background:"#141b29";
+    width: 100%;
+}
+
+.carosal_card{
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background:#141b29;
+    height: 390px;
+    border: 0px solid yellow;
+    
+}
+
+.carosal_card img{
+    border-radius: 1rem;
+    width: 100%;
+    height: 390px;
+}
+
+.carosal_card.content_image{
+    border-radius: 1rem;
+    width: 50%;
+    height: 390px;
+
+}

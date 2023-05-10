@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .zoom {
+    /* margin: 0 auto; */
+    width: 180px;
+    height: 225px;
+    border: 0px solid red;
+    border-radius:6px;
+    transition: transform .10s;
+  }
+   
+  .zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    border-radius: 14px;
+  }

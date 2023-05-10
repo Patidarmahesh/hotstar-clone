@@ -1,0 +1,12 @@
+import { Typography } from "@mui/material";
+import React from "react";
+import MainLayOut from "../../../MainLayOut";
+
+const HotstarSpecial = ()=>{
+    return(
+        <MainLayOut>
+            <Typography>HotstarSpecial</Typography>
+        </MainLayOut>
+    )
+}
+export default HotstarSpecial;
